@@ -10,8 +10,8 @@ box-sizing: border-box;
   width: 90%;
   margin: 30px auto;
   /* debug */
-  height: 200px;
-  background-color: red;
+  /* height: 200px;
+  background-color: red; */
   /* fine debug */
 }
 
@@ -19,15 +19,16 @@ box-sizing: border-box;
 
 header{
   /* debug */
-  height: 200px;
+  height: 100px;
   background-color: blue;
   /* fine debug */
 }
 
 main{
+  margin: 10px 0;
   /* debug */
-  height: 200px;
-  background-color: green;
+  /* height: 200px;
+  background-color: green; */
   /* fine debug */
 }
 
@@ -38,12 +39,23 @@ main::after{
 }
 
 aside{
-  background-color: #9932CC;
   width: 20%;
   float: left;
   /* debug */
-  height: 200px;
+  /* background-color: #9932CC;
+  height: 100px; */
     /* fine debug */
+}
+
+#left-column{
+  height: 100px;
+  background-color: #8B008B;
+}
+
+.rett-destra{
+  height: 80px;
+  background-color: purple;
+  margin-bottom: 10px;
 }
 
 section{
@@ -51,15 +63,11 @@ section{
   width: 50%;
   float: left;
   margin: 0 5%;
-  /* debug */
   height: 200px;
-    /* fine debug */
 }
 
 
 footer{
-  /* debug */
-  height: 200px;
+  height: 100px;
   background-color: yellow;
-  /* fine debug */
 }
