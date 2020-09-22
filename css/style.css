@@ -31,6 +31,32 @@ main{
   /* fine debug */
 }
 
+main::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+aside{
+  background-color: #9932CC;
+  width: 20%;
+  float: left;
+  /* debug */
+  height: 200px;
+    /* fine debug */
+}
+
+section{
+  background-color: #9400D3;
+  width: 50%;
+  float: left;
+  margin: 0 5%;
+  /* debug */
+  height: 200px;
+    /* fine debug */
+}
+
+
 footer{
   /* debug */
   height: 200px;
