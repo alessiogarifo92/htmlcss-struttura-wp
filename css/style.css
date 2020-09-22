@@ -1,0 +1,39 @@
+/* impostazini generali */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* impostazioni container */
+#container{
+  width: 90%;
+  margin: 30px auto;
+  /* debug */
+  height: 200px;
+  background-color: red;
+  /* fine debug */
+}
+
+/* impostazioni blocchi int. container */
+
+header{
+  /* debug */
+  height: 200px;
+  background-color: blue;
+  /* fine debug */
+}
+
+main{
+  /* debug */
+  height: 200px;
+  background-color: green;
+  /* fine debug */
+}
+
+footer{
+  /* debug */
+  height: 200px;
+  background-color: yellow;
+  /* fine debug */
+}
